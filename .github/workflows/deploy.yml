@@ -27,6 +27,4 @@ jobs:
           ssh-host: www.aleph0.com
       - uses: actions/checkout@v3
       - name: Copy to DreamHost
-        env:
-          REPO_SOURCE: ${{ env.GITHUB_WORKSPACE }}
-        run: rsync -avz --exclude .github --exclude .git --exclude .vscode "$REPO_SOURCE/" chjones@www.aleph0.com:public_html/
+        run: rsync -avz --exclude .github --exclude .git --exclude .vscode "${GITHUB_WORKSPACE%/}/" chjones@www.aleph0.com:public_html/
