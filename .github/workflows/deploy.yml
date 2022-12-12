@@ -5,6 +5,9 @@
 name: Deploy site to DreamHost
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
