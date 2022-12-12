@@ -1,6 +1,7 @@
-# This workflow will push files to a server when you change your code. This is a heavily modified (i.e., simplified) version of the "Deploy web app to Azure Static Web Apps" action further described at https://docs.github.com/en/actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-to-azure-static-web-app
+# This workflow will push files to a server when you change your code.
 #
-# Intentionally does not delete any files from server, though existing ones may be overwritten. 
+# Intentionally does not delete any files from server, though existing ones may
+# be overwritten.
 name: Deploy site to DreamHost
 
 on:
@@ -14,6 +15,9 @@ jobs:
     permissions:
       contents: read # for actions/checkout to fetch code
     runs-on: ubuntu-latest
+    environment:
+      name: default
+      url: https://aleph0.com/~chjones
     name: Deploy site
     steps:
       - name: Setup SSH
@@ -23,6 +27,6 @@ jobs:
           ssh-host: www.aleph0.com
       - uses: actions/checkout@v3
       - name: Copy to DreamHost
-        env: 
+        env:
           REPO_SOURCE: ${{ env.GITHUB_WORKSPACE }}
-        run: rsync -avz --exclude .github --exclude .git "$REPO_SOURCE/" chjones@www.aleph0.com:public_html/
+        run: rsync -avz --exclude .github --exclude .git --exclude .vscode "$REPO_SOURCE/" chjones@www.aleph0.com:public_html/
