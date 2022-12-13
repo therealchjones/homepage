@@ -1,0 +1,2 @@
+AddOutputFilterByType SUBSTITUTE text/html
+Substitute 's|(<body[^>]*>)|$1<p style="text-align:center;width:100%;color:black;background-color:lightyellow">This is an old page. It will not be updated. Consider visiting <a href="https://aleph0.com/~chjones/" style="color:inherit">the current site</a> instead.</p>|i'

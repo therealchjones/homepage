@@ -1,0 +1,341 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<STYLE type=text/css>BODY {
+	FONT-SIZE: 10px; MARGIN: 0px; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR:white 
+}
+.mainbody {
+	BORDER-RIGHT: #666699 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #666699 1px solid; BORDER-BOTTOM: #666699 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.header {
+	BACKGROUND-COLOR: #ffffff
+}
+A {
+	COLOR: blue
+}
+A.float {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.float:hover {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+A.floatwhite {
+	COLOR: white; TEXT-DECORATION: none
+}
+A.floatwhite:hover {
+	COLOR: blue; TEXT-DECORATION: none
+}
+A.floatred {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.floatred:hover {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+TD.bordersmlft {
+	BORDER-RIGHT: gray thin solid; BORDER-LEFT: gray thin solid; BORDER-BOTTOM: gray thin solid
+}
+TD.bordersmmid {
+	BORDER-RIGHT: gray thin solid; BORDER-BOTTOM: gray thin solid
+}
+TD.bordersmtop {
+	BORDER-TOP: gray thin solid
+}
+TD {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+UL {
+	MARGIN-TOP: 1px; MARGIN-BOTTOM: 1px
+}
+OL {
+	MARGIN-TOP: 1px; MARGIN-BOTTOM: 1px
+}
+.wider {
+	MARGIN-TOP: 3px; MARGIN-BOTTOM: 1px
+}
+.programList {
+	MARGIN-TOP: 1px; MARGIN-BOTTOM: 17px
+}
+BLOCKQUOTE {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 1px
+}
+HR {
+	COLOR: #c7ccd8
+}
+INPUT.submitsm {
+	BORDER-RIGHT: #222222 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #222222 1px solid; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 9px; PADDING-BOTTOM: 1px; BORDER-LEFT: #222222 1px solid; COLOR: #ffffff; PADDING-TOP: 1px; BORDER-BOTTOM: #222222 1px solid; BACKGROUND-COLOR: #666699
+}
+INPUT.submit {
+	BORDER-RIGHT: #222222 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #222222 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; BORDER-LEFT: #222222 1px solid; COLOR: #ffffff; PADDING-TOP: 3px; BORDER-BOTTOM: #222222 1px solid; BACKGROUND-COLOR: #666699
+}
+INPUT.adminsubmit {
+	BORDER-RIGHT: #222222 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #222222 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; BORDER-LEFT: #222222 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #222222 1px solid; BACKGROUND-COLOR: #c7ccd8
+}
+.leftborder {
+	BORDER-LEFT: #808080 2px solid
+}
+.rightborder {
+	BORDER-RIGHT: #808080 2px solid
+}
+.topborder {
+	BORDER-TOP: #808080 2px solid
+}
+.bottomborder {
+	BORDER-BOTTOM: #808080 2px solid
+}
+.dkborder {
+	BORDER-RIGHT: #222222 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #222222 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #222222 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #222222 1px solid
+}
+.dkbordertop {
+	BORDER-TOP: #222222 1px solid
+}
+.dkborderright {
+	BORDER-RIGHT: #222222 1px solid
+}
+.dkgrayborder {
+	BORDER-RIGHT: #bbbbbb 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #bbbbbb 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #bbbbbb 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bbbbbb 1px solid
+}
+.dkgraybordertop {
+	BORDER-TOP: #bbbbbb 1px solid
+}
+.dkgrayborderbottom {
+	BORDER-BOTTOM: #bbbbbb 1px solid
+}
+.dkgrayborderright {
+	BORDER-RIGHT: #bbbbbb 1px solid
+}
+.pplborder {
+	BORDER-RIGHT: #666699 1px solid; BORDER-TOP: #666699 1px solid; BORDER-LEFT: #666699 1px solid; BORDER-BOTTOM: #666699 1px solid
+}
+.pplbordertab {
+	BORDER-RIGHT: #666699 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #666699 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; BORDER-LEFT: #666699 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; TEXT-ALIGN: center
+}
+.graytab {
+	PADDING-RIGHT: 3px; BORDER-TOP: #bbbbbb 1px solid; PADDING-LEFT: 3px; BORDER-BOTTOM: #808080 1px solid; BACKGROUND-COLOR: #a9a9a9
+}
+.whitecell {
+	BACKGROUND-COLOR: #ffffff
+}
+.palegraycell {
+	BACKGROUND-COLOR: #ebebeb
+}
+.graycell {
+	BACKGROUND-COLOR: #cccccc
+}
+.dkgraycell {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND-COLOR: #bbbbbb
+}
+.dkgraycell {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND-COLOR: #bbbbbb
+}
+.pplcell {
+	BACKGROUND-COLOR: #666699
+}
+.palepplcell {
+	BACKGROUND-COLOR: #d4d4ec
+}
+.bluegraycell {
+	BACKGROUND-COLOR: #c7ccd8
+}
+.redfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.redfontsm {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.whitefont {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.whitefontlg {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.pplfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666699; TEXT-DECORATION: none
+}
+.pplfontsm {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666699; TEXT-DECORATION: none
+}
+.pplfontlg {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #666699; TEXT-DECORATION: none
+}
+.blackfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #222222; TEXT-DECORATION: none
+}
+.blackfontsm {
+	FONT-SIZE: 10px; COLOR: #222222; TEXT-DECORATION: none
+}
+.blackfontsmbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #222222; TEXT-DECORATION: none
+}
+.blackfontlg {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #222222; TEXT-DECORATION: none
+}
+.dkgrayfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #bbbbbb; TEXT-DECORATION: none
+}
+.dkergrayfont {
+	FONT-SIZE: 12px; COLOR: #434343; TEXT-DECORATION: none
+}
+.dkergrayfontsm {
+	FONT-SIZE: 10px; COLOR: #434343; TEXT-DECORATION: none
+}
+.dkgrayfontsm {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #bbbbbb; TEXT-DECORATION: none
+}
+.navyfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000080; TEXT-DECORATION: none
+}
+.navyfontsm {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000080; TEXT-DECORATION: none
+}
+.navyfontlg {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000080; TEXT-DECORATION: none
+}
+.blacktabsm {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #222222; TEXT-DECORATION: none
+}
+.adminfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0f4771; TEXT-DECORATION: none
+}
+</STYLE>
+
+<SCRIPT language=JavaScript>
+<!-- Begin
+
+
+    function outFU(foo,colorSent) {foo.style.backgroundColor=colorSent;}
+    function inFU(foo,colorSent) {foo.style.backgroundColor=colorSent;}
+
+    function popUp(URL) {day = new Date(); id = day.getTime();
+    eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=600,height=300,left=200,top=200');");}
+
+    function popUpLG(URL) {day = new Date();id = day.getTime();
+    eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width=850,height=500,left=200,top=200');");}
+
+    function popUpBTN(URL) {day = new Date();id = day.getTime();
+    eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=1,location=0,directories=0,status=0,menubar=1,scrollbars=1,resizable=1,width=600,height=300,left=200,top=200');");}
+
+// End -->
+</SCRIPT>
+
+<META http-equiv=content-type content="text/html; charset=iso-8859-1">
+<META http-equiv=pragma content=no-cache>
+<META content=NOARCHIVE name=ROBOTS><TITLE="LOR Coversheet">
+<BODY class=whitecell>
+<p align=right><img alt=ERAS src="erassm.gif" /></p>
+<TABLE cellSpacing=0 cellPadding=0 width=640 border=0>
+  <TBODY>
+  <TR vAlign=top align=left>
+    <TD></TD>
+    <TD><STRONG>Instructions for LoR Writers (LoR # 5)</STRONG> 
+      <HR>
+    </TD></TR></TBODY></TABLE>
+<TABLE width=640>
+  <TBODY>
+  <TR vAlign=top align=left>
+    <TD width=40>&nbsp;</TD>
+    <TD align=middle><STRONG>Request for Letter of Recommendation/Cover Sheet 
+      <P>Please attach this sheet to the <I>front</I> of your letter of 
+      recommendation with a paper clip:</STRONG><BR><BR>
+      <TABLE cellSpacing=0 cellPadding=0 width=400 border=1>
+        <TBODY>
+        <TR vAlign=top align=left>
+          <TD align=right width=150><STRONG>Date:&nbsp;&nbsp;</STRONG></TD>
+          <TD width=360>&nbsp;&nbsp;22 September 2006 </TD></TR>
+        <TR vAlign=top align=left>
+          <TD align=right width=150><STRONG>Letter 
+          Writer:&nbsp;&nbsp;</STRONG></TD>
+          <TD width=360>&nbsp; Suneel Khetarpal </TD></TR>
+        <TR vAlign=top align=left>
+          <TD align=right width=150><STRONG>Applicant 
+            Name:&nbsp;&nbsp;</STRONG></TD>
+          <TD width=360>&nbsp; Christian Jones </TD></TR>
+        <TR vAlign=top align=left>
+          <TD align=right width=150><STRONG>AAMC ID:&nbsp;&nbsp;</STRONG></TD>
+          <TD width=360>&nbsp; 11457017</TD></TR></TBODY></TABLE>
+      <TABLE align=left>
+        <TBODY>
+        <TR>
+          <TD colSpan=2>Thank you for agreeing to write a letter of 
+            recommendation in support of my residency application. This sheet 
+            explains the special procedures needed to prepare a letter for ERAS 
+            - the Electronic Residency Application Service. <BR><BR>Please send 
+            the original letter of recommendation to my designated ERAS Dean's 
+            Office for transmission to ERAS using the following format: <BR><BR>
+            <OL type=1>
+              <LI>Address the letter to&nbsp; "Dear Program Director"; 
+              individualized salutations <BR>are not necessary. (I would be 
+              happy to provide you a list of programs to <BR>which I am 
+              applying). 
+              <LI>Include in your letter whether or not I have waived my right 
+              to see this <BR>recommendation, as indicated below. 
+              <LI>Include my Name and AAMC ID, as listed above, in the subject 
+              line or body of the letter. 
+              <LI>Write your Letter on Letterhead. 
+              <LI>Print your letter so that it may be scanned and added to my 
+              files. 
+              <LI>Attach this sheet to your letter before sending it, to help my 
+              designated <BR>ERAS Dean's Office identify your letter with my 
+              file. 
+              <LI>Some schools may accept ERAS letters of recommendation in 
+              electronic format. <BR>Feel free to contact my designated ERAS 
+              Dean's Office at the address below for accepted electronic formats 
+              (e.g. PDF). 
+              <LI>Finally, please deliver the letter to my designated ERAS 
+              Dean's Office at the address below. </LI></OL>
+            <P align=left>Thank you for supporting my residency 
+            application.<BR><BR><STRONG><U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            </U>(I waive) 
+            <U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            </U>(I do not waive) my right to see this letter. If "waive" is 
+            checked, I waive my right to see this letter under the "Family 
+            Educational Rights and Privacy Act (FERPA)" I acknowledge that this 
+            letter is for the specific purpose of supporting my application for 
+            a residency.
+            <P align=left>Signed: 
+            <U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <BR></U>&nbsp;</STRONG> </P></TD></TR></TBODY></TABLE></P></TD>
+    <TD width=40>&nbsp;</TD></TR>
+  <TR>
+    <TD width=40>&nbsp;</TD>
+    <TD align=middle></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=510 border=0>
+  <TBODY>
+  <TR vAlign=top align=left>
+    <TD align=middle colSpan=2><STRONG>Designated ERAS Dean's Office Mailing 
+      Address</STRONG></TD></TR>
+  <TR>
+    <TD colSpan=2>&nbsp;</TD></TR>
+  <TR vAlign=top align=left>
+    <TD align=right width=100><STRONG>ATTN:</STRONG></TD>
+    <TD 
+  width=410>&nbsp;&nbsp;Director of Career Advising </TD></TR>
+  <TR vAlign=top align=left>
+    <TD align=right width=100><STRONG>Name:</STRONG></TD>
+    <TD 
+  width=410>&nbsp;&nbsp;Janene R. White </TD></TR>
+  <TR vAlign=top align=left>
+    <TD align=right width=100><STRONG>Department:</STRONG></TD>
+    <TD 
+  width=410>&nbsp;&nbsp;Office of Student Affairs </TD></TR>
+  <TR vAlign=top align=left>
+    <TD align=right width=100><STRONG>School:</STRONG></TD>
+    <TD 
+  width=410>&nbsp;&nbsp;USC Keck School of Medicine </TD></TR>
+  <TR vAlign=top align=left>
+    <TD align=right width=100><STRONG>Address:</STRONG></TD>
+    <TD 
+  width=410>&nbsp;&nbsp;1975 Zonal Ave, KAM 100B </TD></TR>
+  <TR vAlign=top align=left>
+    <TD align=right width=100><STRONG>City:</STRONG></TD>
+    <TD width=410>&nbsp;&nbsp;Los Angeles <STRONG>ST:</STRONG>CA  
+      <STRONG>&nbsp;Zip:</STRONG>90089-9020 </TD></TR>
+  <TR vAlign=top align=left>
+    <TD align=right width=100><STRONG>Phone:</STRONG></TD>
+    <TD width=410>&nbsp;&nbsp;(323) 442-2450 <STRONG>Fax: </STRONG>(323) 442-2663 </TD></TR>
+  <TR vAlign=top align=left>
+    <TD align=right width=100><STRONG>E-mail:</STRONG></TD>
+    <TD width=410>&nbsp;&nbsp;jrwhite@usc.edu  
+    </TD></TR>
+  <TR vAlign=top align=left>
+    <TD align=right width=100>&nbsp;</TD>
+    <TD width=410>&nbsp;</TD></TR></TBODY></TABLE></TD><TD 
+width="40">&nbsp;</TD> </TR></TABLE></BODY></HTML>

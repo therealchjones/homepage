@@ -1,0 +1,59 @@
+* {
+	margin:0; padding:0;
+}
+
+body {
+	width:80%; margin-left:10%; font-family:sans-serif;
+}
+
+h1 {
+	margin-top:0.5ex; margin-bottom:1ex; text-align:center;
+}
+
+p {
+	margin-top:1ex; margin-bottom:1ex;
+}
+
+ul {
+	list-style-type:none; text-align:center;
+}
+
+li {
+	display:block; float:left; width:50%; text-align:center;
+	margin-top:1ex; margin-bottom:1ex;
+}
+
+img {
+	vertical-align:text-top; border-style:none;
+}
+
+#copyright {
+	font-size:smaller; padding-top:1ex; margin-bottom:1ex;
+	clear:both;
+}
+
+/*
+	The proper way to do this is #copyright > h2 , but Microsoft
+	Internet Explorer 6 for Microsoft Windows doesn't support
+	the '>' child selector.
+*/
+#copyright h2 {
+	float:left;
+}
+
+dt {
+	width:100%; border-bottom: 1px solid; margin-top: 1ex;
+	margin-bottom:0.5ex;
+}
+
+dd {
+	width:80%; margin-left:10%;
+}
+
+.longtitle {
+	font-style:italic;
+}
+
+#noneavailable {
+	text-align:center;
+}

@@ -13,10 +13,7 @@ changes to the GitHub repository's main branch, after which the proper GitHub
 workflow will take over.
 
 Finally, please note that the current workflows do _not_ remove any files from
-the aleph 0 webserver. There are currently files stored there (namely,
-`.htaccess` and everything in the `old` directory) that are supposed to be there
-but not supposed to be part of the git repository. (These may be added to the
-repository in the future.) Additionally, the failure to remove files is
+the aleph 0 webserver. The failure to remove files is
 considered a safety feature rather than a bug. If files need to be removed, they
 should first be removed from the git repository (and the changes should be
 pushed), then removed from the webserver manually.
