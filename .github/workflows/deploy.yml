@@ -29,4 +29,4 @@ jobs:
           ssh-private-key: ${{ secrets.DREAMHOST_SSH_KEY }}
           ssh-host: www.aleph0.com
       - name: Deploy files to DreamHost
-        run: ssh www.aleph0.com bin/dreamhost-deploy homepage
+        run: ssh chjones@www.aleph0.com bin/dreamhost-deploy homepage
