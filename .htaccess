@@ -205,6 +205,6 @@ Redirect gone /~chjones/old/extra/resident-wiki.tar.gz
 Redirect permanent /~chjones/old/2007/music/index.html /~chjones/old/2007/blogentries/what-im-listening-to/index.html
 redirectmatch gone ^/~chjones/old/2007/medicine/medschool/copyrighted-junk.*$
 redirect permanent /~chjones/old/2007/links/index.html /~chjones/old/2007/blogentries/links/index.html
-
-RewriteEngine on
-RewriteRule .git/ - [F]
+redirect 500 /~chjones/.git
+redirect 500 /~chjones/.vscode
+redirect 500 /~chjones/.github
