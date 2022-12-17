@@ -207,4 +207,4 @@ redirectmatch gone ^/~chjones/old/2007/medicine/medschool/copyrighted-junk.*$
 redirect permanent /~chjones/old/2007/links/index.html /~chjones/old/2007/blogentries/links/index.html
 
 RewriteEngine on
-RewriteRule .*\.git/.* - [F]
+RewriteRule .git/ - [F]
