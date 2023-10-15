@@ -3,7 +3,7 @@ redirect gone /~chjones/atom.xml
 redirect gone /~chjones/rss.xml
 redirect gone /~chjones/sitemap.xml
 redirect gone /~chjones/todo
-redirect permanent /~chjones/extra/clippy_votes.png /~chjones/img/clippy_votes.png
+redirect permanent /~chjones/extra/clippy*votes.png /~chjones/img/clippy_votes.png
 redirect permanent /~chjones/extra/macmini.jpg /~chjones/img/macmini.jpg
 redirect permanent /~chjones/medschool /~chjones/medicine/medschool
 redirect permanent /~chjones/labels/ /~chjones/blogentries/labels-
@@ -203,8 +203,9 @@ Redirect permanent /~chjones/old/img/logo.png "/~chjones/old/img/4 8 15 16 23 42
 Redirect gone /~chjones/old/extra/fourniers-pics.zip
 Redirect gone /~chjones/old/extra/resident-wiki.tar.gz
 Redirect permanent /~chjones/old/2007/music/index.html /~chjones/old/2007/blogentries/what-im-listening-to/index.html
-redirectmatch gone ^/~chjones/old/2007/medicine/medschool/copyrighted-junk.*$
+redirectmatch gone ^/~chjones/old/2007/medicine/medschool/copyrighted-junk.\_$
 redirect permanent /~chjones/old/2007/links/index.html /~chjones/old/2007/blogentries/links/index.html
-redirect 500 /~chjones/.git
-redirect 500 /~chjones/.vscode
-redirect 500 /~chjones/.github
+redirect 403 /~chjones/.git
+redirect 403 /~chjones/.vscode
+redirect 403 /~chjones/.github
+ErrorDocument 410 /~chjones/gone.html
