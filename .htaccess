@@ -1446,7 +1446,8 @@ redirect gone /chjones/~chjones/todo
 redirect gone /chjones/~chjones/uploaded_images
 redirect gone /chjones/~chjones/writing
 redirect gone /chjones/~chjones/writing/stars
-redirect gone /chjones/~chjones/writing/nostalgiaredirectmatch gone ^/~chjones/200[3-7]
+redirect gone /chjones/~chjones/writing/nostalgia
+redirectmatch gone ^/~chjones/200[3-7]
 redirectmatch gone ^/~chjones/archive(/|$)
 redirectmatch gone ^/~chjones/music/([^/]*)\.mp3$
 redirectmatch gone ^/~chjones/music/acappella/.*.mp3
