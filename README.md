@@ -1,6 +1,6 @@
 # ~chjones
 
-Christian Jones's personal homepage at <https://aleph0.com/~chjones> is managed
+Christian Jones's personal homepage at <https://www.aleph0.com/~chjones> is managed
 via a git repository housed on GitHub at
 <https://github.com/therealchjones/homepage>. This includes both files (such as
 `index.html` and `README.md`) that will be copied to the aleph 0 webserver when
