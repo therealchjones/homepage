@@ -1453,3 +1453,4 @@ redirectmatch gone ^/chjones/~chjones/archive(/|$)
 redirectmatch gone ^/chjones/~chjones/music/([^/]*)\.mp3$
 redirectmatch gone ^/chjones/~chjones/music/acappella/.*.mp3$
 redirectmatch permanent ^/chjones/~chjones/writing/nostalgia(/|/index.html)?$ https://gist.github.com/therealchjones/47c723ae65e806cb07570cb478333165
+redirectmatch gone ^/chjones/~chjones/writing(/|index.html)?$
