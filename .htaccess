@@ -720,7 +720,7 @@ redirectmatch gone "^/~chjones/threelinereviews/?$"
 redirectmatch gone "^/~chjones/threelinereviews/movies/?$"
 redirectmatch gone "^/~chjones/todo/?$"
 redirectmatch gone "^/~chjones/uploaded_images/?$"
-redirectmatch permanent "^/~chjones/writing/stars/?$" "https://gist.github.com/therealchjones/d87121e6226d83ff7e0bb176d1a05248"
+redirectmatch permanent "^/~chjones/writing/stars(/|/index.html)?$" "https://gist.github.com/therealchjones/d87121e6226d83ff7e0bb176d1a05248"
 redirectmatch gone "^/chjones/~chjones/aleph0.css$"
 redirectmatch gone "^/chjones/~chjones/archives.html$"
 redirectmatch gone "^/chjones/~chjones/atom.xml$"
@@ -1443,7 +1443,7 @@ redirectmatch gone "^/chjones/~chjones/threelinereviews/?$"
 redirectmatch gone "^/chjones/~chjones/threelinereviews/movies/?$"
 redirectmatch gone "^/chjones/~chjones/todo/?$"
 redirectmatch gone "^/chjones/~chjones/uploaded_images/?$"
-redirectmatch permanent "^/chjones/~chjones/writing/stars/?$" "https://gist.github.com/therealchjones/d87121e6226d83ff7e0bb176d1a05248"
+redirectmatch permanent "^/chjones/~chjones/writing/stars(/|/index.html)?$" "https://gist.github.com/therealchjones/d87121e6226d83ff7e0bb176d1a05248"
 redirectmatch gone ^/~chjones/200[3-7]
 redirectmatch gone ^/~chjones/archive(/|$)
 redirectmatch gone ^/~chjones/music/([^/]*)\.mp3$
@@ -1452,5 +1452,5 @@ redirectmatch gone ^/chjones/~chjones/200[3-7]
 redirectmatch gone ^/chjones/~chjones/archive(/|$)
 redirectmatch gone ^/chjones/~chjones/music/([^/]*)\.mp3$
 redirectmatch gone ^/chjones/~chjones/music/acappella/.*.mp3$
-redirectmatch permanent ^/chjones/~chjones/writing/nostalgia(/|/index.html)?$ https://gist.github.com/therealchjones/47c723ae65e806cb07570cb478333165
-redirectmatch gone ^/chjones/~chjones/writing(/|index.html)?$
+redirectmatch permanent ^(/chjones)?/~chjones/writing/nostalgia(/|/index.html)?$ https://gist.github.com/therealchjones/47c723ae65e806cb07570cb478333165
+redirectmatch gone ^(/chjones)?/~chjones/writing(/|index.html)?$
